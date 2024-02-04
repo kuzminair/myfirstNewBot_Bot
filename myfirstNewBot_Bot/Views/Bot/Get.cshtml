@@ -1,0 +1,9 @@
+﻿@model MessageModel
+
+<form asp-controller="Bot" asp-action="But" asp-antiforgery="true">
+    <div>
+
+        <input asp-for="Text" required />
+        <input type="submit" value="Послать" />
+    </div>
+</form> 
