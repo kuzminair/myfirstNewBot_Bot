@@ -10,7 +10,7 @@ namespace myfirstNewBot_Bot.Controllers
         [ApiController]
         [Route("/")]
         public class BotController : Controller
-        {
+    {
         private readonly ILogger<HomeController> _logger;
         private static UpdateDistributor<CommandExecutor> _distributor = new UpdateDistributor<CommandExecutor>();
         public BotController(ILogger<HomeController> logger)
@@ -31,6 +31,8 @@ namespace myfirstNewBot_Bot.Controllers
         {
             return View();
         }
+        
+        
         [HttpPost("Bot/But")]
         public async Task But([FromForm] MessageModel mes)
         {

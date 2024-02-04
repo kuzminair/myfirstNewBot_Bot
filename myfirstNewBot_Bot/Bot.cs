@@ -13,7 +13,7 @@ namespace myfirstNewBot_Bot
                 return client;
             }
             ///токен, который дал @BotFather
-            client = new TelegramBotClient("6851420206:AAE5RUoAgiTF6V1zgUTQr5tOxbi2tDsl-Kg");
+            client = new TelegramBotClient("6274205942:AAG2jfNAVC9eaRI2A4-Pkbgi9NYSIo8Akdg");
             return client;
         }
     }
